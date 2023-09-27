@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libpqxx-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build-Debug-659a75e18c9b3e80de62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Apppl/Downloads/libpqxx-7.8.1/libpqxx-7.8.1"
+				},
+				{
+					"build" : "libpqxx-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build.src-Debug-ffa5afa7c3a54f025a6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Apppl/Downloads/libpqxx-7.8.1/libpqxx-7.8.1/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libpqxx-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build.include-Debug-3d7077e10eb05b82fd22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Apppl/Downloads/libpqxx-7.8.1/libpqxx-7.8.1/include"
+				},
+				{
+					"build" : "libpqxx-build/test",
+					"jsonFile" : "directory-libpqxx-build.test-Debug-af8624fba5d0ef33c49e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Apppl/Downloads/libpqxx-7.8.1/libpqxx-7.8.1/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ClientsDatabase",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "libpqxx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ClientsDatabase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClientsDatabase-Debug-ab1d5866a773accb147c.json",
+					"name" : "ClientsDatabase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pqxx::@376b7f7a0e6c7533911c",
+					"jsonFile" : "target-pqxx-Debug-5184115a67c811d0ee25.json",
+					"name" : "pqxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "runner::@8e15c2587bdae1d5f14a",
+					"jsonFile" : "target-runner-Debug-ae5e46824eca96256b26.json",
+					"name" : "runner",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Apppl/source/repos/ClientsDatabase/out/build/x64-debug",
+		"source" : "C:/Users/Apppl/source/repos/ClientsDatabase"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

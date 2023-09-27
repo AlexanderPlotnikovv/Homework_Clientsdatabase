@@ -1,0 +1,7 @@
+﻿cmake_minimum_required(VERSION 3.22.0)
+set(PostgreSQL_ADDITIONAL_VERSIONS "15")
+project(ClientsDatabase)
+add_executable(ClientsDatabase main.cpp)
+add_subdirectory("C:\\Users\\Apppl\\Downloads\\libpqxx-7.8.1\\libpqxx-7.8.1" libpqxx-build)
+target_compile_features(ClientsDatabase PRIVATE cxx_std_17)
+target_link_libraries(ClientsDatabase PRIVATE pqxx)	
